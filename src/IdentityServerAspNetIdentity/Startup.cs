@@ -27,8 +27,7 @@ namespace IdentityServerAspNetIdentity
         }
 
         public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllers();
+        { 
             services.AddControllersWithViews();
             services.AddLocalApiAuthentication();
             services.AddAuthentication("Bearer")
